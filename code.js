@@ -19,8 +19,12 @@ function getComputerChoice() {
 }
 
 function getHumanChoice() {
+    humanChoice = "none";
     while (humanChoice != "rock" && humanChoice != "paper" &&humanChoice != "scissors"){
-        let humanChoice = prompt("Choose Rock, Paper or Scissors!").toLowerCase;
+        let input = prompt("Choose Rock, Paper or Scissors!");
+        if (input !== null) {
+            humanChoice = input.toLowerCase();
+        }
 }
     return humanChoice;
 }
@@ -39,7 +43,7 @@ function playRound (humanChoice, computerChoice){
             }
             else{
                 humanScore += 1;
-                console.log("Rock vs Scissors: You Win!")
+                console.log("Rock vs Sciss                  ors: You Win!")
             }
         }
         else if (humanChoice == "paper"){
