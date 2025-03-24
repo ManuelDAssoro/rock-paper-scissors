@@ -1,17 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<script src="code.js"></script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock Paper Scissors</title>
+    <link rel = "stylesheet" href="styles.css"> 
 </head>
-<body style="background-color: black;">
-    
-    <script>
-        playGame()
-    </script>
-    
-
+<body>
+    <div id = "container">
+        <div id = "header">
+            <h1>Rock  Paper  Scissors</h1>
+        </div>
+        <div id = "scoreboard">
+            <div id = "playerHud">
+                <h1>You</h1>
+                <div id = "playerChoice"></div>
+                <div id = "playerScore"></div>                
+            </div>
+            <div id = "computerHud">
+                <h1>Computer</h1>
+                <div id = "computerChoice"></div>
+                <div id = "computerScore"></div>                
+            </div>
+        </div>
+        <div id = "roundResult"></div>
+        <div id = "buttonsContainer">
+            <button id = "rockButton">✊ </button>
+            <button id = "paperButton">✌️</button>
+            <button id = "scissorsButton">✋</button>
+        </div>
+    </div>
+    <script src="code.js"></script>
 </body>
 </html>

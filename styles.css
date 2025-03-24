@@ -1,0 +1,103 @@
+body {
+  flex-direction: column;
+  display: flex;
+  height: 100vh;
+  background-color: #FED2E2;
+}
+
+
+#container{
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    display:block;
+    width: 98%;
+    max-width: 900px;
+    max-height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Arial;
+    font-weight: bold;
+    background-color: #C68EFD;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;    
+}
+
+#header{
+    color: rgb(255, 225, 89);
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-size: 1em;
+    background-color: #8F87F1;
+}
+
+#scoreboard{
+    border-radius: 10px;
+    border: none;
+    background-color: #E9A5F1;
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#playerHud{
+    justify-content: center;
+    text-align: center;
+    aspect-ratio: 1 / 1;
+    min-width: 150px;
+    max-width: 250px;
+    flex: 1;
+    border-radius: 10px;
+    border: 4px solid rgb(145, 189, 255);
+    margin: 1vh;
+}
+
+#computerHud{
+    justify-content: center;
+    text-align: center;
+    aspect-ratio: 1 / 1;
+    min-width: 150px;
+    max-width: 250px;
+    flex: 1;
+    border-radius: 10px;
+    border: 4px solid rgb(248, 65, 65);
+    margin: 1vh;
+}
+
+#computerHud{
+    min-height: 150px;
+    min-width: 150px;
+    max-width: 250px;
+    height: auto;
+    flex: 1;
+    border-radius: 10px;
+    border: 4px solid rgb(248, 65, 65);
+    margin: 1vh;
+}
+
+#buttonsContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    height: 3em;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+button{
+    background-color: rgb(146, 3, 165);
+    border-radius: 10px;
+    border: 2px solid white;
+    font-size: 3em;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 0.5em;
+}
+
+button:hover{
+    transform: scale(1.10);
+}

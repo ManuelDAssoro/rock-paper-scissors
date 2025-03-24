@@ -80,7 +80,11 @@ function playRound (humanChoice, computerChoice){
 }
 }
 
-function playGame() {
+
+
+
+
+/*function playGame() {
     console.log("Your score: " + humanScore + " - Computer score: " + computerScore);
     humanScore = 0;
     computerScore = 0;
@@ -97,3 +101,4 @@ function playGame() {
         console.log("The computer wins the game!")
     }
 }
+*/
