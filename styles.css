@@ -119,3 +119,7 @@ button:hover{
     align-items: center;
     justify-content: center;
 }
+
+#playerLastChoice, #computerLastChoice {
+    font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", sans-serif;
+}
