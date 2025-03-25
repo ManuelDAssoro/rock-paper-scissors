@@ -68,21 +68,3 @@ function playRound (playerChoice, computerChoice){
 
 
 
-/*function playGame() {
-    alert("Your score: " + playerScore + " - Computer score: " + computerScore);
-    playerScore = 0;
-    computerScore = 0;
-    alert("Your score: " + playerScore + " - Computer score: " + computerScore);
-    while (playerScore < 5 && computerScore < 5){
-        let playerChoice = getplayerChoice();
-        let computerChoice = getComputerChoice();
-        playRound(playerChoice, computerChoice);
-    }        
-    if (playerScore == 5){
-        alert("You win the game!")
-    }
-    else{
-        alert("The computer wins the game!")
-    }
-}
-*/
