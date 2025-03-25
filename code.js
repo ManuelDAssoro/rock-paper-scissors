@@ -52,14 +52,21 @@ function playRound (playerChoice, computerChoice){
     }
     computerScoreDisplay.innerHTML = computerScore;
     playerScoreDisplay.innerHTML = playerScore;
-    computerScoreDisplay.innerHTML = computerScore;
-    playerScoreDisplay.innerHTML = playerScore;
+
 
     setTimeout(() => {
         if (playerScore == 5) {
             alert("You win the game!");
+            playerScore = 0;
+            computerScore = 0;
+            computerScoreDisplay.innerHTML = computerScore;
+            playerScoreDisplay.innerHTML = playerScore;
         } else if (computerScore == 5) {
             alert("The computer wins the game!");
+            playerScore = 0;
+            computerScore = 0;
+            computerScoreDisplay.innerHTML = computerScore;
+            playerScoreDisplay.innerHTML = playerScore;
         }
     }, 0);
 }
