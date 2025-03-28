@@ -47,7 +47,7 @@ function playRound (playerChoice, computerChoice){
         (playerChoice === "scissors" && computerChoice === "paper")
     ) {
         playerScore += 1; 
-    } else {
+    } else if (playerChoice != computerChoice){
         computerScore += 1; 
     }
     computerScoreDisplay.innerHTML = computerScore;
