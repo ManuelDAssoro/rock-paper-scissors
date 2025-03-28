@@ -2,7 +2,8 @@ body {
   flex-direction: column;
   display: flex;
   height: 100vh;
-  background-color: #FED2E2;
+  background-color: #182353; 
+  color: #eff6ff;
 }
 
 
@@ -18,25 +19,27 @@ body {
     margin-left: auto;
     font-family: Arial;
     font-weight: bold;
-    background-color: #C68EFD;
+    background-color: #1f3789; 
+    border: 2px solid #1f4ad6; 
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;    
 }
 
 #header{
-    color: rgb(255, 225, 89);
+    background-color: #1f4ad6; 
+    color: #eff6ff; 
     border-radius: 10px;
     border: none;
     text-align: center;
     font-size: 1em;
-    background-color: #8F87F1;
+    background-color: 
 }
 
 #scoreboard{
     border-radius: 10px;
     border: none;
-    background-color: #E9A5F1;
+    background-color: #1f3789;
     min-height: 100px;
     display: flex;
     flex-direction: row;
@@ -51,7 +54,8 @@ body {
     max-width: 250px;
     flex: 1;
     border-radius: 10px;
-    border: 4px solid rgb(26, 113, 245);
+    border: 4px solid #1f4ad6;
+    background-color: #182353;
     margin: 1vh;
 }
 
@@ -63,18 +67,8 @@ body {
     max-width: 250px;
     flex: 1;
     border-radius: 10px;
-    border: 4px solid rgb(248, 65, 65);
-    margin: 1vh;
-}
-
-#computerHud{
-    min-height: 150px;
-    min-width: 150px;
-    max-width: 250px;
-    height: auto;
-    flex: 1;
-    border-radius: 10px;
-    border: 4px solid rgb(248, 65, 65);
+    border: 4px solid #1f4ad6;
+    background-color: #182353;
     margin: 1vh;
 }
 
@@ -86,10 +80,13 @@ body {
     height: 3em;
     margin-top: 10vh;
     margin-bottom: 10vh;
+    
 }
 
 #buttonsContainer button{
-    background-color: rgb(146, 3, 165);
+    background-color: #1f4ad6; 
+    border: 2px solid #eff6ff; 
+    color: #eff6ff; 
     border-radius: 10px;
     border: 2px solid white;
     font-size: 3em;
@@ -128,4 +125,20 @@ button:hover{
 
 #playerLastChoice, #computerLastChoice {
     font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", sans-serif;
+}
+
+
+
+
+
+
+
+#buttonsContainer:hover > :not(:hover) {
+    filter: brightness(0.6);
+    opacity: 0.5;
+}
+
+#playerLastChoice, #computerLastChoice {
+    color: #dbe9fe; 
+}
 }
