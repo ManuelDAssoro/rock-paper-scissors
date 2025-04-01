@@ -68,7 +68,7 @@ function playRound (playerChoice, computerChoice){
             computerScoreDisplay.innerHTML = computerScore;
             playerScoreDisplay.innerHTML = playerScore;
         }
-    }, 0);
+    }, 1);
 }
 
 
