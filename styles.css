@@ -33,7 +33,6 @@ body {
     border: none;
     text-align: center;
     font-size: 1em;
-    background-color: 
 }
 
 #scoreboard{
@@ -127,12 +126,6 @@ button:hover{
     font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", sans-serif;
 }
 
-
-
-
-
-
-
 #buttonsContainer:hover > :not(:hover) {
     filter: brightness(0.6);
     opacity: 0.5;
@@ -141,4 +134,14 @@ button:hover{
 #playerLastChoice, #computerLastChoice {
     color: #dbe9fe; 
 }
-}
+
+footer {    
+    margin: 2vh;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+
+a:visited { 
+    color: #e5e7eb;
+}  
