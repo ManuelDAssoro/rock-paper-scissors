@@ -141,7 +141,9 @@ footer {
     text-align: center;
     font-weight: bold;
   }
-
+a{
+    color:white;
+}
 a:visited { 
     color: #e5e7eb;
 }  
